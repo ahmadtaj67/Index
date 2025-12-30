@@ -3,72 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surah Inshirah - Ayat 6</title>
-
-    <!-- Arabic Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-
+    <title>Ahmad's Portfolio</title>
     <style>
+        /* CSS starts here */
         body {
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            height: 100vh;
-            font-family: 'Amiri', serif;
-
-            background: 
-                linear-gradient(rgba(0, 70, 32, 0.75), rgba(0, 60, 28, 0.75)),
-                url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .box {
-            background: rgba(255, 255, 255, 0.92);
-            padding: 40px 30px;
-            width: 90%;
-            max-width: 500px;
-            text-align: center;
-            border-radius: 18px;
-
-            -webkit-backdrop-filter: blur(6px); /* First recommended */
-            backdrop-filter: blur(6px);
-
-            box-shadow: 0 0 25px rgba(0,0,0,0.3);
-        }
-
-        .ayat {
-            font-size: 38px;
-            color: #000;
-            margin: 20px 0;
-            line-height: 1.6;
-            text-shadow: 0 0 8px rgba(0, 80, 40, 0.4);
-        }
-
-        .trans {
-            font-size: 18px;
+            background-color: #f4f4f4;
             color: #333;
-            margin-top: 10px;
-            font-family: Arial, sans-serif;
+            text-align: center;
         }
-
-        @media (max-width: 480px) {
-            .ayat {
-                font-size: 30px;
-            }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 50px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 { margin: 0; }
+        .btn {
+            display: inline-block;
+            background: #e67e22;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
         }
     </style>
 </head>
 <body>
 
-    <div class="box">
-        <div class="ayat">إِنَّ مَعَ الْعُسْرِ يُسْرًا</div>
-        <div class="trans">“Indeed, with hardship comes ease.”</div>
+    <header>
+        <h1>Ahmad Taj</h1>
+        <p>DevOps Engineer | Jenkins & Docker Specialist</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I build automated CI/CD pipelines using Jenkins and deploy applications with Docker.</p>
+        </div>
+
+        <div class="card">
+            <h2>Current Project</h2>
+            <p><strong>Status:</strong> SonarQube Analysis Passed</p>
+            <a href="#" class="btn">View My Work</a>
+        </div>
     </div>
+
+    <footer>
+        <p>&copy; 2025 Ahmad's Pipeline Project</p>
+    </footer>
 
 </body>
 </html>
